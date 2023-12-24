@@ -30,6 +30,7 @@ let myNewArray1 = myArr1.slice(1, 3)
 console.log("B ", myArr1);
 console.log(myNewArray1);
 
+
 let myNewArray2 = myArr1.splice(1, 3)
 console.log("c ", myArr1);
 console.log(myNewArray2);
