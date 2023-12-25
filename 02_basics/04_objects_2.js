@@ -1,15 +1,15 @@
-let tinderUser = new Object()  //This is a Singleton object
+// let tinderUser = new Object()  //This is a Singleton object
 // let tinderUser = {}  // this is an non-singleton object
 
-tinderUser.id = "111"
-tinderUser.name = "Umair"
-tinderUser.isLoggedIn = true
+// tinderUser.id = "111"
+// tinderUser.name = "Umair"
+// tinderUser.isLoggedIn = true
 
 // console.log(tinderUser);
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
 //  let regularUser = {
@@ -35,3 +35,14 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 // console.log(obj4);
 
 
+        // de-structure
+let course = {
+    coursename : "js in hindi",
+    price : "555",
+    courseInstructor : "Hitesh sir"
+}
+// console.log(course.courseInstructor);
+let {courseInstructor : instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+console.log();
